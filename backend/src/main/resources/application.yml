@@ -53,8 +53,8 @@ spring:
 
 #mybatis plus 设置
 mybatis-plus:
-  type-aliases-package: cc.mrbird.febs.system.domain,cc.mrbird.febs.job.domain
-  mapper-locations: classpath:mapper/*/*.xml
+  type-aliases-package: com.febs.system.domain,com.febs.job.domain
+  mapper-locations: classpath:mapper/**/*.xml
   configuration:
     jdbc-type-for-null: null
   global-config:
